@@ -1,0 +1,15 @@
+<h1>Trip: <%= @trip.name %></h1>
+<h2>Total Hiking Mileage: <%= @trip.total_hike %></h2>
+<h2>Average Hiking Mileage: <%= @trip.avg_trail_hike %></h2>
+<h2>Longest Hike: <%= @trip.longest_hike %> miles</h2>
+<h2>Shortest Hike: <%= @trip.shortest_hike %> miles</h2>
+
+<h2>Trails:</h2>
+
+<% @trip.trails.each do |trail| %>
+<section id='trail-<%= trail.id %>'>
+  <h3>Trail Name: <%= link_to trail.name, "/trails/#{trail.id}" %></h3>
+  <h5>Trail Address: <%= trail.address %></h5>
+  <h5>Trail Length in Miles: <%= trail.length %></h5>
+</section>
+<% end %>

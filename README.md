@@ -64,7 +64,7 @@ when I visit a hiking trip's page,
 I see the total hiking distance
 of all trails on that hiking trip
 ```
-
+---------------------------------
 ```
 User Story 5 of 10
 
@@ -73,7 +73,7 @@ when I visit a hiking trip's page,
 I see the average hiking distance
 of all trails on that hiking trip
 ```
-
+---------------------------------------
 ```
 User Story 6 of 10
 
@@ -83,7 +83,7 @@ I see a heading that says "Longest Trail on Trip"
   and the name and length of the longest trail
   included on that hiking trip
 ```
-
+--------------------------------------
 ```
 User Story 7 of 10
 
@@ -93,7 +93,7 @@ I see a heading that says "Shortest Trail on Trip"
   and the name and length of the longest trail
   included on that hiking trip
 ```
-
+---------------------------------------------------
 ```
 User Story 8 of 10
 
@@ -102,7 +102,7 @@ when I visit a hiking trip's page,
 I can click on the name of a trail
 to see a show page for that specific trail.
 ```
-
+----------------------------------------------------
 ### Trail Show page
 
 ```
@@ -114,7 +114,7 @@ I see the name and address of this trail.
 I also see the name and total length of
 every hiking trip that includes this trail
 ```
-
+----------------------------------------------------
 ```
 User Story 10 of 10
 
